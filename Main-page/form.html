@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./fashion.css">
+    <title>Sign In</title>
+</head>
+<body>
+    <body>
+    <div class="Grouper">
+    <div class="info">
+        <img src="./Images/Car4.png" alt="">
+        <div class="logo upper_logo"><h1>NASR</h1></div>
+        <div class="Info-text">
+        <h1>Get Started By Signing Up</h1>
+        <p>Already have an account  <a href="login.html">Sign In</a></p>
+        </div>
+    </div>
+    <div class="container">
+        
+        <h2>Signup Form</h2>
+        <p>Please fill the required information to sign up : </p>
+        <form id="signupForm">
+            <div class="Grouping">
+                            <div class="form-group">
+                             <label for="first-name">First Name*</label>
+                             <input type="text" id="first-name" placeholder="John" required>
+                            </div>
+                            <div class="form-group">
+                             <label for="last-name">Last Name*</label>
+                             <input type="text" id="last-name" placeholder="Pork" required>
+                            </div>
+            </div>
+            <div class="form-group">
+                <label for="username">Username*</label>
+                <input type="text" id="username" name="username" placeholder="John_pork" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email*</label>
+                <input type="email" id="email" name="email" placeholder="example@example.com" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password*</label>
+                <input type="password" id="password" name="password" required>
+                <div class="password-hint" id="passwordHint">
+                    Password must be at least 8 characters long, and include at
+                    least one uppercase letter, one lowercase letter, one
+                    number, and one special character.
+                </div>
+                <span id="passwordError" class="error"></span>
+                <div class="password-strength" id="passwordStrength"></div>
+            </div>
+            <div class="form-group">
+                <label for="confirmPassword">Confirm Password*</label>
+                <input type="password" id="confirmPassword"
+                    name="confirmPassword" required>
+                <span id="confirmPasswordError" class="error">
+            </div>
+            <a href="./index.html"><button type="submit">Signup</button></a>
+        </form>
+    </div>
+    </div>
+
+     <footer>
+        <div class="upper-footer">
+            <div class="left-footer">
+              <h1 class="logo">NASR</h1>
+              <p>At NASR, we bring you the finest selection of luxury and performance vehicles. Experience innovation, speed, and elegance in every drive.</p>
+            </div>
+            <!-- <div class="Grouper"> -->
+            <div class="middle-footer">
+                <div class="footer-img">
+                            <a href="https://www.instagram.com/ak_shrest/"><img src="./Images/icon7.png" alt="Instagram"></a>
+                            <a href="https://www.facebook.com/Aakash.Shrestha.64"><img src="./Images/icon8.png" alt="Facebook"></a>
+                            <a href="https://www.tiktok.com/@_skyz.z"><img src="./Images/icon9.png" alt="TikTok"></a>
+                            <a href="https://web.whatsapp.com/"><img src="./Images/icon10.png" alt="Whatsapp"></a>
+                            <a href="https://x.com/AakashShrest"><img src="./Images/icon11.png" alt="X"></a> 
+                </div>
+                 <ul class="nav-links-footer">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Products</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="right-footer">
+                <h3>Contact Us</h3>
+                <div class="footer-contact">
+                    <div class="icon-container-footer">
+                        <img src="./Images/icon5.png" alt="">
+                    </div>
+                    <div class="footer-contact-info">
+                        <p>Phone</p>
+                        <p> +1 (555) 123-4567</p>
+                    </div>
+                </div>
+                <div class="footer-contact">
+                    <div class="icon-container-footer">
+                        <img src="./Images/icon6.png" alt="">
+                    </div>
+                    <div class="footer-contact-info">
+                        <p>Email</p>
+                        <p>info@luxurycarrental.com</p>
+                    </div>
+                </div>
+            </div>
+            <!-- </div> -->
+        </div>
+        <div class="lower-footer">
+            <div class="">
+            <p>&copy; 2023 NASR. All rights reserved.</p>
+            </div>
+            <div class="">
+            <p>Privacy Policy | Terms of Service</p>
+            </div>
+        </div>
+           
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
